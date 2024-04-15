@@ -4,7 +4,9 @@
   padding: 0;
   background-color:blue;
 }
-
+a:hover {
+  background-color: yellow;
+}
   li, a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
@@ -44,9 +46,6 @@ h1.name {
   transition: all .02s ease 0s;
   font: 20px sans-serif;
   
-}
-.navbar li a:hover{
-  color:greenyellow
 }
 
 ul.navbar{
@@ -111,7 +110,9 @@ p.about-me{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+  }
+  div.feature:hover{
+    color: red;
   }
 
   .subwork1{
@@ -121,6 +122,9 @@ p.about-me{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+  }
+  div.subwork1:hover{
+    color:black;
   }
 
   .subwork2{

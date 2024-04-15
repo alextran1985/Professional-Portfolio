@@ -22,7 +22,6 @@ If you followed tutorials, include links to those here as well.
 Please refer to the repositary for license info.
 ---
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
 
 
