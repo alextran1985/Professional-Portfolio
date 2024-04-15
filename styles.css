@@ -7,9 +7,10 @@
 
   li, a{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 32px;
     color: aquamarine;
     text-decoration: none;
+    background-color:blue;
   }
 
   .header {
@@ -17,6 +18,12 @@
     justify-content: flex-end;
     align-items:center;
     padding: 20px 10px;
+    background-color:blue;
+}
+
+h1.name {
+  color: aquamarine;
+  background-color:blue;
 }
 
 
@@ -42,9 +49,9 @@
   color:greenyellow
 }
 
-.navbar{
+ul.navbar{
   list-style: none;
-  
+  background-color:blue;
 }
 
 .navbar li{
@@ -53,20 +60,31 @@
   
 }
 /* About Me Container */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .profileimg {
-  width: 100%;
   max-width: 400px;
   height: auto;
 }
 
-.about-me{
-  background-color:blueviolet;
-  height: 400px;
+.flex-container h2 {
+  color: aquamarine;
+  text-align: center;
+  font-size: 32px;
 }
-.aboutme {
-  background-color: blueviolet;
-  color:azure
+
+.about-me {
+  height: max-content;
+  
 }
+p.about-me{
+  font-size: 1.5em;
+  margin: 10px;
+}
+
 
 .wrapper {
   display: grid;
@@ -74,7 +92,7 @@
   grid-auto-rows: minmax(100px, auto);
   gap: 10px;
   background-color:coral;
-  
+
 }
 
 .wrapper > div {
@@ -83,6 +101,7 @@
     padding: 20px;
     font-size: 30px;
   }
+
  /* This is where work begin */
   .feature{
     grid-column: 1/5;
@@ -128,7 +147,12 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-  /*  */
+  /* This is where Footer Begin */
+
+  .Contacts h1{
+    color: aquamarine;
+    background-color:blue;
+  }
 
 
 
