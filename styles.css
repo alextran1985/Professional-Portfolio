@@ -9,10 +9,11 @@ a:hover {
 }
   li, a{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
+    font-size: 25px;
     color: aquamarine;
     text-decoration: none;
     background-color:blue;
+    padding: 3px;
   }
 
   .header {
@@ -157,6 +158,16 @@ p.about-me{
     color: aquamarine;
     background-color:blue;
   }
+
+  @media only screen and (max-width: 580px){
+    div,a,p{
+    background-color:whitesmoke;
+    
+    }
+    
+  }
+
+
 
 
 
